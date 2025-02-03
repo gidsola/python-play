@@ -7,8 +7,8 @@ model = AutoModelForCausalLM.from_pretrained(MODEL_ID)
 # Format message with the c4ai-command-r7b-12-2024 chat template
 messages = [{"role": "user", "content": "Hello, how are you?"}]
 input_ids = tokenizer.apply_chat_template(
-    messages, tokenize=True, 
-    add_generation_prompt=True, 
+    messages, tokenize=True,
+    add_generation_prompt=True,
     return_tensors="pt"
 )
 
