@@ -1,6 +1,5 @@
-import torch
 import argparse
-
+import torch
 from transformers import AutoProcessor, AutoModelForVision2Seq
 from transformers.image_utils import load_image
 
@@ -15,7 +14,9 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 if args.url:
     image2 = load_image(args.url)
 else:
-    image2 = load_image("https://www.artificialintelligence-news.com/wp-content/uploads/2024/07/ai-7977960_1280.jpg")
+    image2 = load_image(
+        "https://www.artificialintelligence-news.com/wp-content/uploads/2024/07/ai-7977960_1280.jpg"
+        )
 
 # Initialize processor and model
 processor = AutoProcessor.from_pretrained("HuggingFaceTB/SmolVLM-Instruct")
