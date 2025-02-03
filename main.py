@@ -6,7 +6,7 @@ app = FastAPI();
 
 @app.get("/image/describe/{text}")
 async def image(text: str, url: Union[str, None] = None):
-  script_path = "/media/goodsie/codes/Repos/pythin/image/describe/SmolVLM.py";
+  script_path = "/media/goodsie/codes/Repos/pythin/image/describe/SmolVLM.py"; # need to change this up
   args = [text];
   if url: args.append(url)
     
