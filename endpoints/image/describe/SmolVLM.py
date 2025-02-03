@@ -1,3 +1,4 @@
+""" smol file """
 import argparse
 import torch
 from transformers import AutoProcessor, AutoModelForVision2Seq

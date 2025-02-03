@@ -1,3 +1,4 @@
+""" cohere file """
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 MODEL_ID = "CohereForAI/c4ai-command-r-v01-4bit"
