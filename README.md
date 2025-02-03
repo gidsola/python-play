@@ -1,6 +1,8 @@
 # Python Play
 
-Welcome to the Python Play repository! This workspace is dedicated to experimenting with Python code and exploring various programming concepts.
+Welcome to the Python Play repository!  
+
+This workspace is dedicated to experimenting with Python code and exploring various programming concepts using Huggingface and locally hosted models as well as other custom endpoint implements.
 
 ## Getting Started
 
@@ -16,13 +18,12 @@ Welcome to the Python Play repository! This workspace is dedicated to experiment
     ```bash
     pip install -r requirements.txt
     ```
+## Note for Fast API
+I have removed fast-api from the requirements.tx as it has a specific mention on how it should be installed.
+ - install using the following cmd: ``` pip install "fastapi[standard]" ```
+ - for more info see: https://fastapi.tiangolo.com/#installation
 
-## Contributing
-
-Feel free to fork this repository, make improvements, and submit pull requests. Contributions are always welcome!
-
-## License
-
-This project is licensed under the MIT License.
+## Getting Online
+You can start the fastapi server by typing: ``` fastapi dev main.py ```
 
 Happy coding!
