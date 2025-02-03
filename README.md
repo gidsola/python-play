@@ -1,4 +1,6 @@
-# Python Play
+
+
+# Python Play  <img src="https://github.com/gidsola/python-play/actions/workflows/pylint.yml/badge.svg"/>
 
 Welcome to the Python Play repository!  
 
