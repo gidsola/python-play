@@ -14,7 +14,7 @@ async def image(text: str, url: Union[str, None] = None):
   result = subprocess.run(
     ['python', script_path] + args, 
     capture_output=True, 
-    text=True
+    text=True,
     check=True
   );
   
