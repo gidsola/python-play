@@ -16,7 +16,10 @@ This workspace is dedicated to experimenting with Python code and exploring vari
     ```
 3. Install the required dependencies:
     ```bash
+    python -m pip install --upgrade pip
     pip install -r requirements.txt
+    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+    pip install "fastapi[standard]"
     ```
 ## Note for Fast API
 I have removed fast-api from the requirements.tx as it has a specific mention on how it should be installed.
