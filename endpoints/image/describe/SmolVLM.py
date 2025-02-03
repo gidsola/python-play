@@ -13,7 +13,7 @@ args = parser.parse_args()
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 if args.url:
-    image2 = load_image(args.url);
+    image2 = load_image(args.url)
 else:
     image2 = load_image("https://www.artificialintelligence-news.com/wp-content/uploads/2024/07/ai-7977960_1280.jpg")
 
