@@ -6,7 +6,9 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/image/describe/{text}")
+
 async def image(text: str, url: Union[str, None] = None):
+    """ function to call the smolvlm.py script """
     script_path = "/media/goodsie/codes/Repos/pythin/image/describe/smolvlm.py"
     args = [text]
     if url:
@@ -20,4 +22,3 @@ async def image(text: str, url: Union[str, None] = None):
     )
 
     return {"output":result.stdout}
-  

@@ -21,10 +21,6 @@ This workspace is dedicated to experimenting with Python code and exploring vari
     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
     pip install "fastapi[standard]"
     ```
-## Note for Fast API
-I have removed fast-api from the requirements.tx as it has a specific mention on how it should be installed.
- - install using the following cmd: ``` pip install "fastapi[standard]" ```
- - for more info see: https://fastapi.tiangolo.com/#installation
 
 ## Getting Online
 You can start the fastapi server by typing: ``` fastapi dev main.py ```
