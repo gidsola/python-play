@@ -25,6 +25,9 @@ This workspace is dedicated to experimenting with Python code and exploring vari
     ```
 
 ## Getting Online
-You can start the fastapi server by typing: ``` fastapi dev main.py ```
+You can start the fastapi server by typing: 
+```bash 
+fastapi dev main.py
+```
 
 Happy coding!
