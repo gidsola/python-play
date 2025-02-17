@@ -1,3 +1,4 @@
+''' This script demonstrates how to use the ParlerTTS model for TTS.'''
 import torch
 from parler_tts import ParlerTTSForConditionalGeneration
 from transformers import AutoTokenizer
